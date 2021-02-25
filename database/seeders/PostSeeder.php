@@ -26,6 +26,5 @@ class PostSeeder extends Seeder
             'created_at'=>$faker->date($format = 'Y-m-d H:i:s', $max = 'now'),
         ]);
         }
-        
     }
 }
